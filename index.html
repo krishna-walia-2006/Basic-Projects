@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="number-input">
+        </div>
+
+        <div class="buttons">
+            <button onclick="handleClickButton(this)" class="btn function">AC</button>
+            <button onclick="handleClickButton(this)" class="btn function">+/-</button>
+            <button onclick="handleClickButton(this)"class="btn function">%</button>
+            <button onclick="handleClickButton(this)" class="btn operator">÷</button>
+
+            <button onclick="handleClickButton(this)" class="btn">7</button>
+            <button onclick="handleClickButton(this)" class="btn">8</button>
+            <button onclick="handleClickButton(this)" class="btn">9</button>
+            <button onclick="handleClickButton(this)" class="btn operator">x</button>
+
+            <button onclick="handleClickButton(this)" class="btn">4</button>
+            <button onclick="handleClickButton(this)" class="btn">5</button>
+            <button onclick="handleClickButton(this)" class="btn">6</button>
+            <button onclick="handleClickButton(this)" class="btn operator">-</button>
+
+            <button onclick="handleClickButton(this)" class="btn">1</button>
+            <button onclick="handleClickButton(this)" class="btn">2</button>
+            <button onclick="handleClickButton(this)" class="btn">3</button>
+            <button onclick="handleClickButton(this)" class="btn operator">+</button>
+
+            <button onclick="handleClickButton(this)" class="btn zero"></button>
+            <button onclick="handleClickButton(this)" class="btn">.</button>
+            <button onclick="handleClickButton(this)" class="btn operator">=</button>
+        </div>
+    </div>
+
+</body>
+    <script src="javascript.js"></script>
+</html>
